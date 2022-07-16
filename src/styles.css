@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  background-image: linear-gradient(90deg, orange, yellow);
+  height: 100vh;
+  padding: 30px;
+}
+
+.searchable-input-container {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 8px 8px 0 0;
+  box-sizing: border-box;
+}
+
+.input {
+  all: unset;
+  width: 100%;
+  border: none;
+  background-color: white;
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.input::placeholder {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.dropdown {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  height: 100px;
+  overflow-y: scroll;
+  border-radius: 0 0 8px 8px;
+  font-size: 14px;
+  transition: all 0.7s;
+}
+
+.dropdown-list {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.dropdown-list-item {
+  list-style: none;
+  padding: 10px 20px;
+  font-weight: 400;
+  color: gray;
+}
+
+.dropdown-list-item:hover {
+  background-color: whitesmoke;
+  transition: 0.8s;
+  color: black;
+}
