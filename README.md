@@ -1,2 +1,4 @@
 # filter-search-box
-Created with CodeSandbox
+
+Filter search box is an input box component which shows results on the basis of user input.
+
